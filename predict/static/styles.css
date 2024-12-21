@@ -1,0 +1,124 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Section Title Styling */
+h2, h3 {
+    font-size: 1.8rem;
+    color: #444;
+    margin: 20px 0;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Highlight the prediction result */
+.highlight {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1a73e8;
+    padding: 15px;
+    background-color: #e8f4fe;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Link Styling */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #1a73e8;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #005bb5;
+}
+
+/* Table Styling for the cutoff prediction (if you want to add a table later) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f9;
+    font-weight: bold;
+    color: #555;
+}
+
+table td {
+    color: #666;
+}
+
+/* Responsive Design for small screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p, ul li {
+        font-size: 1rem;
+    }
+
+    .highlight {
+        font-size: 1.2rem;
+    }
+}
